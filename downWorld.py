@@ -12,8 +12,8 @@ import os
 
 def main():
     if os.name !='posix':
-    print "the system is not supported!!! Please change your system environment"
-    exit(0)
+        print "the system is not supported!!! Please change your system environment"
+        exit(0)
     try:
         url = raw_input("Please input aiscanner address,ep http://192.168.1.1/:")
         start = input("Please input start id:")
